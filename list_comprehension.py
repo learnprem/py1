@@ -12,5 +12,6 @@ print(list1)
 
 
 list1 = []
-list1 = [i  if i % 2 == 0 else i for i in range(10) ]
+list1 = ["Even "  if i % 2 == 0 else "Odd" for i in range(10)  ]
 print (list1)
+
