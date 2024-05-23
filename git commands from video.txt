@@ -1,0 +1,75 @@
+* to untrack tracked file. 
+git rm --cached already_tracked_file.txt
+
+
+* to get back last comitted file in the local repo. 
+git restore filename.txt
+	or
+git checkout filename.txt
+
+* to get details
+git log
+
+git log --oneline
+
+
+git reset <commit_id> 
+
+
+git revert <commit id>
+
+
+
+
+working with two users at 2 machines:
+=====================================
+
+to fetch to unix machine: 
+git clone https://githum.com/learnprem/py1.git
+
+
+ to windows  machine: 
+git clone https://githum.com/learnprem/py1.git
+
+
+
+unix:
+added two files, file1, file2
+to push... 
+git add . 
+git comit -m "new files added"
+git push origin master 
+<asking username n paswd> 
+
+
+
+Windows:
+to get the changes in windows:
+git pull -r 
+
+pull for new changes only. synching. 
+clone is for getting fully. 
+
+to get which repository i am working: 
+can be identified with folder name also the command
+
+git remote -v
+
+gives origin links. 
+
+
+
+to upload a local repo to remote:
+================================\
+create repo in github with no files. (even no readme.txt). 
+then push. 
+
+
+git branch   --------> gives branch
+
+
+
+
+
+
+
