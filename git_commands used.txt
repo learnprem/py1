@@ -1,0 +1,15 @@
+git init
+git add list.py
+git status
+git commit -m "message"
+< ERROR - unknown author> 
+git config --global user.email "prem@yahoo.com"
+git config --global user.name "prem"
+git commit -m "message" 
+< success >
+
+git remote add origin https://github.com/learnprem/py1
+git push -u origin 
+<error>
+git push-u origin master
+
