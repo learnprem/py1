@@ -13,3 +13,7 @@ git push -u origin
 <error>
 git push-u origin master
 
+
+after a commit, to discard the local changes (reset working folder and staging area) to the last commit:
+git reset --hard HEAD
+
