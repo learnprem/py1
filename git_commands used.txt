@@ -14,6 +14,15 @@ git push -u origin
 git push-u origin master
 
 
+
 after a commit, to discard the local changes (reset working folder and staging area) to the last commit:
 git reset --hard HEAD
+git remote -v
+
+git remote add origin "https:...."
+git push -----> no origin set
+git push origin -----> branch not set
+
+git push origin master
+   worked, without -u option
 
