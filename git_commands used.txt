@@ -13,3 +13,15 @@ git push -u origin
 <error>
 git push-u origin master
 
+
+
+==============
+git remote -v
+
+git remote add origin "https:...."
+git push -----> no origin set
+git push origin -----> branch not set
+
+git push origin master
+   worked, without -u option
+
